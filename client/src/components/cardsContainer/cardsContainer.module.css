@@ -1,0 +1,23 @@
+.MainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  justify-content: center;
+}
+.CardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+}
+
+a.activePage {
+  color: white;
+  float: left;
+  padding: 8px 10px;
+  text-decoration: none;
+  background-color: rgb(167,16,16);
+  border-radius: 5px;
+  width: 20px;
+}

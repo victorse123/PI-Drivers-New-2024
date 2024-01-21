@@ -1,0 +1,159 @@
+
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 10px;
+  border: 2px solid white;
+}
+
+legend {
+  margin: 5px;
+}
+input {
+  width: 300px;
+  border-radius: 5px;
+  background-color: transparent;
+  border-style: none;
+  border: 1px solid white;
+  height: 20px;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
+
+label {
+  width: 300px;
+  margin: 20px 0 5px 0;
+}
+a {
+  color: black;
+}
+
+.FormContainer {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
+  margin-top: 20px;
+  background-color: rgb(167, 16, 16);
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  color: white;
+  padding: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.textWarning {
+  color: #ff9500;
+  font-size:smaller;
+}
+
+.submitButtonOn {
+  background-color: white;
+  color: rgb(167, 16, 16);
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 8px;
+  border: 1px solid ;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  transition: 300ms;
+}
+
+.submitButtonOn:active {
+  background-color: rgb(167, 16, 16);
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 8px;
+  border: 1px solid ;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  transition: 300ms;
+}
+.submitButtonOff {
+  background-color: #99999980;
+  color: gray;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 8px;
+  border-color: transparent;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.submitButton:active {
+  background-color: white;
+  color: rgb(167, 16, 16)
+}
+
+.logoF1 {
+  max-width: 30%;
+  height: auto;
+}
+
+fieldset label .spanStar {
+  font-size:large;
+}
+
+.closeButton {
+  background-color: #000;
+  border-color: transparent;
+  color: #ffffff;
+  font-weight: 700;
+  position: absolute;
+  top: -15px;
+  right: 0px;
+  padding: 2px 15px 2px 15px;
+  border-bottom-left-radius: 8px;
+  z-index: 1000;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+.select {
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.select:focus {
+  outline: none;
+}
+
+.select option {
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 1px solid white;
+  color: black
+}
+
+.multipleSelect {
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.multipleSelect:focus {
+  outline: none;
+}
+
+.multipleSelect option {
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 1px solid white;
+  color: white
+}

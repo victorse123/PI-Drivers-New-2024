@@ -1,0 +1,27 @@
+.mainContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+  background-color: rgb(211, 211, 211);
+}
+
+.hidden {
+  display:none;
+  background-color: aqua;
+}
+
+.noDriversByNationality {
+  width: 100%;
+  height: 100%;
+}
+
+a.activePage {
+  color: white;
+  float: left;
+  padding: 8px 10px;
+  text-decoration: none;
+  background-color: rgb(167,16,16);
+  border-radius: 5px;
+  width: 20px;
+}

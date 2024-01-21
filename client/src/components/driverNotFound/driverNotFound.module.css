@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+  height: 71vh;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.driverNotFoundImg {
+  margin-top: 20px;
+}
+
+.createButton {
+  background-color: rgb(167,16,16);
+  border-color: transparent;
+  border-radius: 5px;
+  padding: 1px;
+  color: white;
+  width: 150px;
+  height: 30px;
+  transition: 300ms;
+  font-size: medium;
+}
+
+.createButton:active {
+  background-color: grey;
+  border-color: transparent;
+  border-radius: 5px;
+  padding: 1px;
+  color: white;
+  width: 150px;
+  height: 30px;
+  transition: 300ms;
+  font-size: medium;
+  font-weight: 500;
+}

@@ -1,0 +1,59 @@
+.CardContainer {
+  width: 300px;
+  height: 390px;
+  overflow: hidden;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  position: relative;
+}
+
+.cardHeader {
+  background-color: rgb(167, 16, 16);
+  position: absolute;
+  top: 0;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.cardHeader h4 {
+  width: 260px;
+  white-space: wrap;
+  margin: 5px 0 0 0;
+  color: white;
+}
+
+.cardImage {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  object-fit: cover;
+}
+
+.cardImage img {  
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 30px;
+}
+
+.teamsTitle {
+  margin: 5px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.teams {
+  margin: 0px 20px 0px 20px;
+  font-size: small;
+}
+
+.infoContainer {
+  background-color: white;
+  color: black;
+}

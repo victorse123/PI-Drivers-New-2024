@@ -1,0 +1,97 @@
+.navContainer {
+  display: flex;
+  align-items: center;
+  background-color: rgb(167, 16, 16);
+  width: 100%;
+  overflow: hidden;
+}
+
+.navContainer img {
+  width: 10vw
+}
+.rightFlag {
+  transform: scale(-1);
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.searchBar {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+  align-items: center;
+}
+
+.filters {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.filters select {
+  padding: 5px;
+  margin: 10px;
+}
+
+.searchInput {
+  color: white;
+  padding-left: 10px;
+  height: 22px;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #ffffff50
+}
+
+.navBarButton {
+  background-color: transparent;
+  border: white 1px solid;
+  border-radius: 5px;
+  padding: 1px;
+  color: white;
+  width: 100px;
+  height: 25px;
+  transition: 300ms;
+}
+
+.navBarButton:hover {
+  background-color: white;
+  color: rgb(167, 16, 16);
+  font-weight: 700;
+}
+
+.filters select {
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.filters select:focus {
+  outline: none;
+}
+
+.filters option {
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 1px solid white;
+  color: black
+}
+
+.cleanFilters {
+  margin-top: 10px;
+}
